@@ -10,3 +10,5 @@ let generatedPw = document.getElementById('generated_password').innerHTML = user
 
 alert('Password generata: ' + generatedPw);
 
+console.warn('Di certo non il miglior generatore di password.');
+
