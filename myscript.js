@@ -6,4 +6,7 @@ const favoriteColor = prompt('Insert your favorite color');
 
 let currentYear = 23;
 
-document.getElementById('generated_password').innerHTML = userName + userLastName + favoriteColor + currentYear;
+let generatedPw = document.getElementById('generated_password').innerHTML = userName + userLastName + favoriteColor + currentYear;
+
+alert('Password generata: ' + generatedPw);
+
